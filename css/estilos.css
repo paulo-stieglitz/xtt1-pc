@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+/* Menu de navegação */
+header {
+    background: linear-gradient(90deg, #35c3a4, #6a5acd);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Seção de boas-vindas */
+.welcome {
+    background: linear-gradient(90deg, #b4f0b4, #a3c6ff);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.welcome h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Botões coloridos */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+button.red { background: #ff6b6b; color: #fff; }
+button.yellow { background: #ffdd57; color: #333; }
+button.orange { background: #ff9f43; color: #fff; }
+button.green { background: #1dd1a1; color: #fff; }
+button.blue { background: #54a0ff; color: #fff; }
+button.purple { background: #9b59b6; color: #fff; }
+button.pink { background: #f368e0; color: #fff; }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+}
